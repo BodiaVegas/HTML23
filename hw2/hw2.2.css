@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+div {
+  width: 100px;
+  height: 100px;
+  background-color: darkorange;
+}
+.one:hover{
+  background-color: chartreuse;
+  border-radius: 50%;
+  transition: 1s;
