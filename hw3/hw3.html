@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        #header {
+            width: 100vw;
+            height: 100vh;
+            background: pink;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        #center {
+            width: 100vw;
+            height: 100vh;
+            background: #b3d4fc;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        #footer {
+            width: 100vw;
+            height: 100vh;
+            background: greenyellow;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        a {
+            font-size: 30px;
+        }
+        p {
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+        <div id="header">
+            <h1>Section 1</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, consectetur consequatur cum dolore dolorum eius fuga libero minima sed sit veritatis voluptates! Ab aliquid eos, esse ipsam molestiae quod.
+                <br>
+                <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto autem fugit provident quia! Atque eius est expedita facilis iusto magnam, maiores minus, officia quam sed suscipit tempora totam vero?</p>
+            <a href="#center">&#8595</a>
+        </div>
+        <div id="center">
+            <a href="#header">&#8593</a>
+            <h1>Section 2</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, consectetur consequatur cum dolore dolorum eius fuga libero minima sed sit veritatis voluptates! Ab aliquid eos, esse ipsam molestiae quod.
+                <br>
+                <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto autem fugit provident quia! Atque eius est expedita facilis iusto magnam, maiores minus, officia quam sed suscipit tempora totam vero?</p>
+            <a href="#footer">&#8595</a>
+        </div>
+        <div id="footer">
+            <a href="#center">&#8593</a>
+            <h1>Section 3</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, consectetur consequatur cum dolore dolorum eius fuga libero minima sed sit veritatis voluptates! Ab aliquid eos, esse ipsam molestiae quod vel.
+                <br>
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto autem fugit provident quia! Atque eius est expedita facilis iusto magnam, maiores minus, officia quam sed suscipit tempora totam vero?</p>
+        </div>
+</body>
+</html>
