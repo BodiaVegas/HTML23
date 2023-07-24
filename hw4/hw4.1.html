@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            margin:0;
+        }
+        main {
+            width: 30vw;
+            height: 100vh;
+            background-color: white;
+        }
+        header {
+            width: 30vw;
+            height: 70vh;
+            border: #cccccc solid 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 20px 0 0 20px;
+        }
+        footer {
+            width: 30vw;
+            height: 20vh;
+            border: #cccccc solid 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 20px 0 0 20px;
+        }
+        img {
+            height: 20vh;
+        }
+
+
+        #user {
+            width: 25vw;
+            height: 5vh;
+            justify-content: center;
+            margin: 0 0 15px 0;
+        }
+        #password {
+            width: 25vw;
+            height: 5vh;
+            margin: 0 0 20px 0;
+        }
+        button {
+            width: 25vw;
+            height: 30px;
+        }
+        #insta {
+            width: 18vw;
+            height: 80px;
+        }
+        #enter {
+            width: 25vw;
+            background-color: dodgerblue ;
+            color: white;
+            font-size: 15px;
+            font-family: Arial;
+            margin-bottom: 10px;
+        }
+        #facebook {
+            background-color: white;
+            border: none;
+            font-size: 15px;
+        }
+        #forgot {
+            background-color: white;
+            border: none;
+        }
+
+        #face {
+            width: 20px;
+            height: 20px;
+        }
+        p {
+            margin: 0;
+        }
+
+
+
+    </style>
+</head>
+<body>
+        <main>
+            <header>
+                <img src="instagram.png" alt="" id="insta">
+                <br>
+                <label for="user"></label>
+                <input type="text" name="username" id="user" placeholder="Номер телефону, ім'я користовача або email" required>
+
+                <label for="password"></label>
+                <input type="password" name="password" id="password" placeholder="Пароль" required>
+
+                <button id="enter">Увійти</button>
+                <p>АБО</p>
+                <button id="facebook"><a href="https://uk-ua.facebook.com/"><img src="Facebook_icon.svg.png" alt="" id="face">Увійти через Facebook</a></button>
+                <button id="forgot"><a href="https://www.instagram.com/accounts/password/reset/" id="forget">Забули пароль?</a></button>
+            </header>
+            <footer>
+                <p>
+                    Немає облікового запису? <a href="#">Зареєструйтеся</a>
+                </p>
+            </footer>
+        </main>
+
+</body>
+</html>

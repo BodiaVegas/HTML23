@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        main {
+            width: 100vw;
+            height: 100vh;
+            background-color: #cccccc ;
+        }
+        section {
+            width: 600px;
+            height: 350px;
+            background-color: dodgerblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .window {
+            width: 50%;
+            height: 75%;
+            background-color: white;
+            border-radius: 5px;
+        }
+        footer {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        #password,#email,#name {
+            width: 90%;
+            height: 30px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border-color: #cccccc;
+        }
+        #submit {
+            height: 40px;
+            background-color: #cccccc;
+            border-color: gold;
+            margin-left: 100px;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+        h2 {
+            margin: 10px 0 10px 10px;
+            border-bottom: #cccccc solid;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+        <main>
+            <section>
+                <div class="window">
+                    <header>
+                        <h2>New to Twitter? <a href="#">Sign Up</a></h2>
+                    </header>
+                    <footer>
+
+                        <label for="name"></label>
+                        <input type="text" name="name" placeholder="Full name" id="name" required>
+
+                        <label for="email"></label>
+                        <input type="email" name="email" placeholder="Email" id="email" required>
+
+                        <label for="password"></label>
+                        <input type="password" name="password" placeholder="Password" id="password" required>
+                        <label for="submit"></label>
+                        <input type="submit" value="Sign Up for Twitter" id="submit">
+
+                    </footer>
+                </div>
+            </section>
+        </main>
+</body>
+</html>

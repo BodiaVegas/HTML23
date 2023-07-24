@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        main {
+            width: 100vw;
+            height: 100vh;
+            background-color: ghostwhite;
+        }
+        .window {
+            width: 60vw;
+            height: 60vh;
+            background-color: palegreen ;
+            padding-left: 20px;
+        }
+        h1  {
+            color: red;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+        <main>
+            <div class="window">
+                <h1>Заповніть поля анкети</h1>
+                <br>
+                <label for="name">Ваше ім'я:</label>
+                <input type="text" name="name" placeholder="" id="name" required>
+                <br> <br>
+                <label for="surname">Ваше прізвище:</label>
+                <input type="text" name="name" placeholder="" id="surname" required>
+                <br> <br>
+                <label >Ваша стать:
+                    <input type="radio" name="sex" id="sex"><label for="sex">Жіноча</label>
+                    <input type="radio" name="sex" id="sex2"> <label for="sex2">Чоловіча</label>
+                </label>
+                <br>
+                <br>
+                <label> Послугами якої сотової компанії Ви користуєтеся:
+                    <br>
+                    <br>
+                    <input type="checkbox" name="company" id="company"><label for="company">KyivStar</label>
+                    <input type="checkbox" name="company" id="company2"> <label for="company2">MTS</label>
+                    <input type="checkbox" name="company" id="company3"><label for="company3">Life:)</label>
+                    <input type="checkbox" name="company" id="company4"> <label for="company4">PeopleNet</label>
+                    <input type="checkbox" name="company" id="company5"> <label for="company5">Utel</label>
+                </label>
+                <br>
+                <br>
+
+                <input type="reset" value="Очистити бланк" id="reset">
+                <input type="submit" value="Надіслати анкету">
+
+            </div>
+        </main>
+
+
+
+</body>
+</html>
