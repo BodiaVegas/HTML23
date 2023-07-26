@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+        .main {
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+        }
+        .one,.two,.three {
+          width: 20vw;
+          height: 60vh;
+          background: #cccccc;
+          border: #222222 solid;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          flex-direction: column;
+          position: relative;
+        }
+        h2 {
+          margin-top:15vh;
+        }
+        .column1,.column2,.column3 {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          position: absolute;
+          top: -5vh;
+          border: #222222 solid;
+        }
+        .column1 {
+          background-image: url("icons-game-50.png");
+          background-size: cover;
+        }
+        .column2 {
+          background-image: url("chess-50.png");
+        }
+        .column3 {
+          background-image: url("battle-50.png");
+          background-size: cover;
+        }
+  </style>
+</head>
+<body>
+<div class="main">
+      <div class="one">
+            <div class="column1"></div>
+            <h2>lorem</h2>
+            <p>Lorem ipsum dolor sit amet, consecrate radicalising elite.</p>
+      </div>
+      <div class="two">
+            <div class="column2"></div>
+            <h2>lorem</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <div class="three">
+            <div class="column3"></div>
+            <h2>lorem</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+</div>
+</body>
+</html>
