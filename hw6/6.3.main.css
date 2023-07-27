@@ -1,0 +1,45 @@
+body {
+    margin:0;
+}
+header {
+    width: 100vw;
+    height: 33.34vh;
+    background-color: #9B6F6F;
+}
+main {
+    display: flex;
+}
+.b,.c,.d,.e,.f,.g {
+    width: 25vw;
+    height: 33.33vh;
+
+}
+.bcd {
+    display: flex;
+}
+.efg {
+    display: flex;
+}
+.b {
+    background-color: #EEFFFD;
+}
+.c {
+    background-color: #8A8484;
+}
+.d {
+    background-color: #A74848;
+}
+.e {
+    background-color: chartreuse;
+}
+.f {
+    background-color: darkorange ;
+}
+.g {
+    background-color: blueviolet;
+}
+.h{
+    width: 25vw;
+    height: 66.66vh;
+    background-color: brown;
+}

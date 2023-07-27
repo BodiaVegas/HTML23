@@ -1,0 +1,33 @@
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 100vw;
+    background-color: #A74848;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+.one {
+    width: 75vw;
+    height: 80vh;
+    background-color: #9B6F6F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two {
+    width: 25vw;
+    height: 80vh;
+    background-color: #b3d4fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

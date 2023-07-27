@@ -1,0 +1,40 @@
+body {
+    margin:0;
+}
+header {
+    width: 100vw;
+    height: 33vh;
+    background-color: #9B6F6F;
+}
+main {
+    display: flex;
+}
+.b {
+    width: 75vw;
+    height: 33vh;
+    background-color: #197e8d;
+}
+.bcde{
+    /*display: flex;*/
+}
+.cde {
+    display: flex;
+}
+.c,.d,.e {
+    width: 25vw;
+    height: 34vh;
+}
+.c {
+    background-color: #8A8484;
+}
+.d {
+    background-color: #A74848;
+}
+.e {
+    background-color: chartreuse;
+}
+.f {
+    height: 66.6666vh;
+    width: 25vw;
+    background-color: darkorange ;
+}

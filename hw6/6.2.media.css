@@ -1,0 +1,21 @@
+@media screen and (max-width: 400px) {
+    main {
+        flex-direction: column;
+    }
+    .b {
+        height: 25vh;
+        width: 100vw;
+    }
+    .c,.d,.e {
+        width: 33.3333vw;
+        height: 25vh;
+    }
+    .f {
+        width: 100vw;
+        height: 25vh;
+    }
+    header {
+        height: 25vh;
+    }
+
+}
