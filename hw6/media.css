@@ -1,0 +1,26 @@
+@media screen and (max-width: 400px) {
+    .one {
+        grid-area: one;
+    }
+    .two {
+        grid-area: two;
+    }
+    .three {
+        grid-area: three;
+    }
+    body {
+        margin:0;
+        height: 100vh;
+        display: grid;
+        grid-template-areas:
+                    "one one one"
+                    "two two two"
+                    "three three three";
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .one,.two,.three {
+        border: 1px solid black;
+    }
+}

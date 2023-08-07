@@ -1,0 +1,61 @@
+main .three1 {
+        display: flex;
+    color: white;
+    background-color: black;
+    width: 100vw;
+}
+main .three1 .one {
+    width: 25vw;
+    padding-left:200px;
+    color: #FFF;
+
+
+}
+main .three1 .one>h2 {
+    font-family: Helvetica;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46.2px; /* 121.579% */
+    letter-spacing: 1px;
+}
+main .three1 .one>p {
+    color: #C4C4C4;
+    font-family:"Roboto Light";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    text-transform: uppercase;
+}
+main .three1 .two2,.three {
+    padding-left: 50px;
+    width: 20%;
+}
+main .three1 .two2>p,.three>p {
+    color: #C4C4C4;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+main .three1 .two2>h4,.three>h4 {
+    color: #C4C4C4;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    /*line-height: 27.3px; !* 170.625% *!*/
+    text-transform: uppercase;
+}
+main .three1 .two2>h3,.three>h3 {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    /*line-height: 33.04px; !* 118% *!*/
+}
+main .three1 .three>p>a {
+    color: lawngreen;
+}

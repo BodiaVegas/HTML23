@@ -1,0 +1,69 @@
+header {
+    width: 100vw;
+    height: 660px;
+    background-color:black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75.6px; /* 108% */
+    letter-spacing: 0.68px;
+}
+header p {
+    margin-bottom: 30px;
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.3px;
+}
+
+header .buttons #but1 {
+    display: inline-flex;
+    padding: 16px 33px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 36px;
+    border: 1px solid #000;
+    background: linear-gradient(152deg, #8C01FA 0%, #000 100%);
+    color: #FFF;
+    text-align: center;
+    font-family: "Roboto Light";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 133.333% */
+    text-transform: uppercase;
+}
+header .buttons #but2 {
+    display: inline-flex;
+    padding: 16px 33px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 36px;
+    border: 1px solid #FFF;
+    background: #000;
+    color: white;
+
+}
+header .buttons #but1:hover {
+    background: linear-gradient(150deg, #FFEB3B 0%, #f50303 100%);
+    color: black;
+    transition: 2s;
+}
+header .buttons #but2:hover {
+    background: linear-gradient(150deg, #f4fc02 0%, #0855ef 100%);
+    color: black;
+    transition: 2s;
+}

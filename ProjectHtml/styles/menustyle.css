@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+.menu {
+    width: 100vw;
+    height: 45px;
+    /*display: flex;*/
+    justify-content: space-evenly;
+    background-color: #222222;
+
+}
+
+.menu .solana {
+    font-size: 25px;
+    margin-left:200px;
+    /*display: flex;*/
+    /*padding-left:30vw;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+}
+.menu .solana img {
+    height: 27px;
+}
+.menu .menupoints a {
+    padding-left: 20px;
+    color: #848895;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 17px;
+    box-sizing: border-box;
+    transition: 3s;
+}
+.menu .menupoints {
+    padding-left: 50vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+.menu .menupoints a:hover {
+    transform: scale(1.03);
+    background-color:#222222;
+    color: white;
+    font-size: 18px;
+    transition: 1s;
+}
+
+/*.menu .solana {*/
+/*    background-image: url("Images/");*/
+/*}*/

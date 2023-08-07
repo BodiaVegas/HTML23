@@ -1,0 +1,29 @@
+
+main {
+    width: 100vw;
+    background-color: black;
+}
+main .one1 p {
+    margin-top: 0;
+    color: #618ADC;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px; /* 112% */
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+main .one1 div{
+    display: flex;
+    padding: 0px 50px;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-evenly;
+}
+main .one1 {
+    width: 100vw;
+    background-color: black;
+    margin-top: 0;
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .one {
+            grid-area: one;
+        }
+        .two {
+            grid-area: two;
+        }
+        .three {
+            grid-area: three;
+        }
+        body {
+            margin:0;
+            height: 100vh;
+            display: grid;
+            grid-template-areas:
+                    "one one one"
+                    "two two three";
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-gap: 10px;
+        }
+        .one,.two,.three {
+            border: 1px solid black;
+        }
+    </style>
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+</body>
+</html>

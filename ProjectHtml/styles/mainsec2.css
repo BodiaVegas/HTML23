@@ -1,0 +1,65 @@
+main>.two>.joina {
+    background-color: black;
+    width: 40vw;
+    color: white;
+    height: 400px;
+    margin-left:200px;
+    font-family: Helvetica;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46.2px; /* 121.579% */
+    letter-spacing: 1px;
+}
+main>.two>.price {
+    background-color: black;
+    width: 40vw;
+    color: white;
+    height: 400px;
+    padding-left:100px;
+}
+main>.two {
+    display: flex;
+    width: 100vw;
+    background-color: black;
+    padding-top:50px;
+}
+main>.two>.price>h1 {
+    margin:0;
+    font-family: Helvetica;
+    font-size: 71px;
+    font-style: normal;
+    font-weight: 400;
+    /*line-height: 132px;*/
+
+}
+main>.two>.price>#eleven{
+    background: linear-gradient(228deg, #19FB9B 0%, #8C01FA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+main>.two>.price>#twentyone {
+    background: linear-gradient(229deg, #0047FF 0%, #00BCD4 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+main>.two>.price>#zero {
+    background: linear-gradient(222deg, #00FFBD 0%, #025B8C 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main>.two>.price>p {
+    margin:0;
+    color: #C4C4C4;
+    font-family: "Roboto Light";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    /*line-height: 27.3px; !* 170.625% *!*/
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
